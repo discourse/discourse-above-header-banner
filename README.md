@@ -1,5 +1,5 @@
-# Above header bar
+# Above header banner
 
-**Theme Summary**
+A Discourse theme component that displays a customizable banner above the site header.
 
-For more information, please see: **url to meta topic**
+![Above Header Bar Screenshot](screenshots/banner-screenshot.jpg)

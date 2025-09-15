@@ -1,2 +1,11 @@
-example_setting:
-  default: true
+member_banner_link:
+  default: "/faq"
+  type: string
+
+anon_banner_link:
+  default: "/login"
+  type: string
+
+open_in_new_tab:
+  default: false
+  type: bool

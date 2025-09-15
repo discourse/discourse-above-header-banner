@@ -1,0 +1,45 @@
+@use "lib/viewport";
+
+.d-header {
+  flex-direction: column-reverse;
+  height: auto; // make space to fit the bar, even if it wraps
+
+  > .wrap {
+    padding-block: 0.5em;
+  }
+}
+
+.custom-header-bar {
+  background: var(--primary-very-low);
+  font-size: var(--font-down-2);
+  width: 100%;
+
+  a,
+  a:visited {
+    display: inline-flex;
+    color: var(--primary-high);
+    padding: 0.5em;
+    gap: 0 0.5em;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+
+    @include viewport.from(md) {
+      justify-content: end;
+      text-align: left;
+    }
+
+    &:hover {
+      span {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  span {
+    font-weight: bold;
+  }
+}

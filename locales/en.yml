@@ -2,4 +2,9 @@ en:
   theme_metadata:
     description: Show a custom bar about the Discourse header
     settings:
-      example_setting: A description of a setting.
+      member_banner_link: "Link for logged in users"
+      anon_banner_link: "Link for logged out users"
+  member_banner_text: "Welcome back, member! Don't forget to follow the rules."
+  member_cta_text: "Learn more"
+  anon_banner_text: "Welcome, visitor! Please sign up or log in."
+  anon_cta_text: "Sign up"
