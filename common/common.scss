@@ -14,6 +14,18 @@
   font-size: var(--font-down-2);
   width: 100%;
 
+  .anon & {
+    background: var(--primary);
+  }
+
+  .invite-page &,
+  .password-reset-page &,
+  .admin-interface &,
+  .signup-page &,
+  .login-page & {
+    display: none;
+  }
+
   a,
   a:visited {
     display: inline-flex;
@@ -26,6 +38,10 @@
     justify-content: center;
     text-align: center;
     box-sizing: border-box;
+
+    .anon & {
+      color: var(--secondary);
+    }
 
     @include viewport.from(md) {
       justify-content: end;

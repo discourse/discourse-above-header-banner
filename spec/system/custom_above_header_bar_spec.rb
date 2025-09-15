@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-RSpec.describe "Viewing the custom above header bar", type: :system do
+RSpec.describe "Viewing the custom above header banner", type: :system do
   fab!(:theme) { upload_theme_component }
 
   it "should display the header bar with anonymous user content when not logged in" do
