@@ -1,6 +1,6 @@
 en:
   theme_metadata:
-    description: Show a custom bar about the Discourse header
+    description: Show a custom banner above the Discourse header
     settings:
       member_banner_link: "Link for logged in users"
       anon_banner_link: "Link for logged out users"
